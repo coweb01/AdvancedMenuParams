@@ -21,9 +21,9 @@
 					description="PLG_ADVANCEDMENUPARAMS_MENUCOLUMN_DESC">
 						<option value="1">JYES</option>
 						<option value="0">JNO</option>
-					</field>
+				</field>
 							  
-				
+									 
 				<field 
 				    name="columnwidth" 
 					type="text" 
@@ -50,6 +50,14 @@
 					label="PLG_ADVANCEDMENUPARAMS_FIELD_LINKCSS_LABEL" 
 					description="PLG_ADVANCEDMENUPARAMS_LINKCSS_DESC" 
 					size="10" />
+
+				<field 
+				    name="headlinedropdown" 
+					type="text" 
+					default="" 
+					label="PLG_ADVANCEDMENUPARAMS_FIELD_HEADLINEDROPDOWN_LABEL" 
+					description="PLG_ADVANCEDMENUPARAMS_HEADLINEDROPDOWN_DESC" 
+					size="10" />	
 				
 				</fieldset>
 		</fields>
