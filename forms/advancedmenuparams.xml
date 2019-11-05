@@ -11,7 +11,18 @@
 					size="10" />
 						
 		      <field name="note01" type="note" label="PLG_ADVANCEDMENUPARAMS_NOTE1_LABEL" description="PLG_ADVANCEDMENUPARAMS_NOTE1_DESC" class="alert" close="true" />				
-			  
+			  <field 
+			  		name="parentitem" 
+					type="radio" 
+				    class="btn-group"
+					default="0" 
+					label="PLG_ADVANCEDMENUPARAMS_FIELD_PARENTITEM_LABEL" 
+					description="PLG_ADVANCEDMENUPARAMS_PARENTITEM_DESC">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+
+
 			  <field 
 			  		name="menucolumn" 
 					type="radio" 
